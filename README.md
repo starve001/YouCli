@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Youcli
 
 Youcli 是一个跨平台的 AI 终端命令补全工具，支持 **Bash、Zsh 和 PowerShell**。它只把补全结果写回当前命令行，**不会自动执行任何模型返回的命令**。
@@ -144,3 +145,7 @@ AI_COMPLETE_DEBUG=1 ai-complete --shell bash --line "git che" --cursor 7
 **快捷键没有反应**：确认已重新加载对应 Shell 配置，且 `ai-complete --line "echo" --cursor 4` 能在同一终端直接运行。
 
 **想为不同用户使用不同 Key**：不要把 Key 写进项目文件；每个用户在自己的环境变量或用户目录配置文件中设置即可。
+=======
+# YouCli
+创建自己的终端代码补全，适用于初学者
+>>>>>>> eaf7562743267d6709cd612960eccd382c8cd255
